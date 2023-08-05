@@ -44,13 +44,13 @@ use({
 --     })
 
 --     -- Hide the characters in CursorLineBg
---     vim.api.nvim_set_hl(0, 'CursorLineBg', {
---       fg = vim.api.nvim_get_hl_by_name('CursorLine', true).background,
---       bg = vim.api.nvim_get_hl_by_name('CursorLine', true).background,
---     })
+    vim.api.nvim_set_hl(0, 'CursorLineBg', {
+      fg = vim.api.nvim_get_hl_by_name('CursorLine', true).background,
+      bg = vim.api.nvim_get_hl_by_name('CursorLine', true).background,
+    })
 
---     vim.api.nvim_set_hl(0, 'NvimTreeIndentMarker', { fg = '#30323E' })
---     vim.api.nvim_set_hl(0, 'IndentBlanklineChar', { fg = '#2F313C' })
+    vim.api.nvim_set_hl(0, 'NvimTreeIndentMarker', { fg = '#4d505e' })
+    vim.api.nvim_set_hl(0, 'IndentBlanklineChar', { fg = '#2F313C' })
   end,
 })
 
@@ -113,6 +113,28 @@ use({
   'sickill/vim-pasta',
   config = function()
     vim.g.pasta_disabled_filetypes = { 'fugitive' }
+  end,
+})
+
+use({
+  'nvim-telescope/telescope.nvim',
+  requires = {
+    { 'nvim-lua/plenary.nvim' },
+    { 'kyazdani42/nvim-web-devicons' },
+    { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' },
+    { 'nvim-telescope/telescope-live-grep-args.nvim' },
+  },
+  config = function()
+    require('user/plugins/telescope')
+  end,
+})
+
+-- File tree sidebar
+use({
+  'kyazdani42/nvim-tree.lua',
+  requires = 'kyazdani42/nvim-web-devicons',
+  config = function()
+    require('user/plugins/nvim-tree')
   end,
 })
 
