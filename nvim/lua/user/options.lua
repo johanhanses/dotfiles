@@ -26,9 +26,9 @@ vim.opt.undofile = true -- persistent undo
 vim.opt.backup = true -- automatically save a backup file
 vim.opt.backupdir:remove('.') -- keep backups out of the current directory
 
---vim.opt.breakindent = true -- maintain indent when wrapping indented lines
+-- --vim.opt.breakindent = true -- maintain indent when wrapping indented lines
 vim.opt.shortmess:append({ I = true }) -- disable the splash screen
---vim.opt.signcolumn = 'yes:2'
---vim.opt.showmode = false
---vim.opt.updatetime = 4001 -- Set updatime to 1ms longer than the default to prevent polyglot from changing it
+vim.opt.signcolumn = 'yes:2'
+vim.opt.showmode = false
+vim.opt.updatetime = 4001 -- Set updatime to 1ms longer than the default to prevent polyglot from changing it
 --vim.opt.redrawtime = 10000 -- Allow more time for loading syntax on large files
