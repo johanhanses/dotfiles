@@ -1,0 +1,23 @@
+import = ["~/.config/alacritty/themes/themes/gruvbox_dark.toml"]
+
+# [env]
+# TERM = "xterm-256color"
+
+[window]
+padding.x = 10
+padding.y = 10
+
+decorations = "Buttonless"
+
+# opacity = 0.7
+# blur = true
+
+# option_as_alt = "Both"
+
+[font]
+normal.family = "UbuntuMono Nerd Font"
+
+offset.y = 4       # For line spacing (default: 0)
+glyph_offset.y = 2 # For glyph spacing (default: 0)
+
+size = 18

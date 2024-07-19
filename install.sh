@@ -3,6 +3,7 @@
 # Originally Stolen from Jess Archer https://github.com/jessarcher/dotfiles/blob/master/install, then modded by me
 
 DOTFILES="$(pwd)"
+DOTFILES_PRIVATE="$HOME/Repos/github.com/johanhanses/dotfiles-private"
 
 # Zsh
 ln -sf $DOTFILES/.zshrc $HOME/.zshrc
@@ -32,3 +33,7 @@ ln -sf $DOTFILES/.gitignore_global $HOME/.gitignore_global
 # Scripts
 rm -rf $HOME/.config/scripts
 ln -sf $DOTFILES/scripts/ $HOME/.config/scripts
+
+# .kube
+rm -rf $HOME/.kube
+ln -sf $DOTFILES_PRIVATE/.kube/ $HOME/.kube

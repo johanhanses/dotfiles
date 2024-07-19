@@ -18,7 +18,7 @@ brew "lazygit"
 
 cask "spotify"
 cask "font-ubuntu-mono-nerd-font"
-cask "sublime-text"
+cask "visual-studio-code"
 cask "mattermost"
 cask "raycast"
 cask "microsoft-teams"
