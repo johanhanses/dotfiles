@@ -1,0 +1,40 @@
+font_family UbuntuMono Nerd Font Regular
+bold_font UbuntuMono Nerd Font Bold
+italic_font UbuntuMono Nerd Font Italic
+bold_italic_font UbuntuMono Nerd Font Bold Italic
+
+font_size 18
+
+modify_font cell_height 150%
+modify_font strikethrough_position 150%
+
+map alt+left send_text all \x1b\x62
+map alt+right send_text all \x1b\x66
+
+map cmd+left send_text all \x01
+map cmd+right send_text all \x05
+
+cursor_blink_interval 1
+
+window_padding_width 12
+
+background_opacity 1.0
+
+hide_window_decorations titlebar-only
+
+window_border_width 2pt
+# wayland_titlebar_color background
+# cursor #911
+
+remember_window_size yes
+
+initial_window_width 1880
+
+initial_window_height 1400
+
+enable_audio_bell no
+
+# BEGIN_KITTY_THEME
+# Gruvbox Dark
+include current-theme.conf
+# END_KITTY_THEME
