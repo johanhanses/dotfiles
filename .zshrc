@@ -1,3 +1,5 @@
+CASE_SENSITIVE="false"
+
 # ~~~~~~~~~~~~~~~ History ~~~~~~~~~~~~~~~~~~~~~~~~
 export HISTFILE=~/.histfile
 export HISTSIZE=25000

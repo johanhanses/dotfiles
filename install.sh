@@ -37,3 +37,6 @@ ln -sf $DOTFILES/scripts/ $HOME/.config/scripts
 # .kube
 rm -rf $HOME/.kube
 ln -sf $DOTFILES_PRIVATE/.kube/ $HOME/.kube
+
+# promt managed by starship
+ln -sf $DOTFILES/starship.toml $HOME/.config/starship.toml

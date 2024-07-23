@@ -15,6 +15,7 @@ brew "tmux"
 brew "bat"
 brew "neovim"
 brew "lazygit"
+brew "php"
 
 cask "spotify"
 cask "font-ubuntu-mono-nerd-font"
