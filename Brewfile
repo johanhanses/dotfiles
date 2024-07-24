@@ -16,6 +16,7 @@ brew "bat"
 brew "neovim"
 brew "lazygit"
 brew "php"
+brew "composer"
 
 cask "spotify"
 cask "font-ubuntu-mono-nerd-font"
