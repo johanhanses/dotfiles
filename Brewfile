@@ -20,6 +20,8 @@ brew "composer"
 
 cask "spotify"
 cask "font-ubuntu-mono-nerd-font"
+cask "font-jetbrains-mono-nerd-font"
+cask "font-fantasque-sans-mono-nerd-font"
 cask "visual-studio-code"
 cask "mattermost"
 cask "raycast"
@@ -30,6 +32,7 @@ cask "1password"
 cask "firefox"
 cask "google-chrome"
 cask "obsidian"
+cask "bartender"
 
 mas "Tailscale", id: 1475387142
 mas "RunCat", id: 1429033973

@@ -49,7 +49,7 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # source $ZSH/oh-my-zsh.sh
 
-# alias zk="cd $GHREPOS/zettelkasten"
+alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 alias repos="cd $REPOS"
 alias ghrepos="cd $GHREPOS"
 alias dot="cd $GHREPOS/dotfiles"

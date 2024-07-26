@@ -7,15 +7,24 @@
 --     vim.cmd([[colorscheme gruvbox-baby]])
 --   end,
 -- }
---
-return {
-  "olimorris/onedarkpro.nvim",
-  priority = 1000, -- Ensure it loads first
-  enabled = true,
-  config = function()
-    vim.cmd([[colorscheme onedark]])
-  end,
-}
+
+-- return {
+--   "olimorris/onedarkpro.nvim",
+--   priority = 1000, -- Ensure it loads first
+--   enabled = true,
+--   config = function()
+--     vim.cmd([[colorscheme onedark]])
+--   end,
+-- }
+
+-- return {
+--   "rose-pine/neovim",
+--   priority = 1000, -- Ensure it loads first
+--   enabled = true,
+--   config = function()
+--     vim.cmd([[colorscheme rose-pine-moon]])
+--   end,
+-- }
 
 -- return {
 --   "folke/tokyonight.nvim",
@@ -207,3 +216,12 @@ return {
 --     end,
 --   },
 -- }
+
+return {
+  "catppuccin/nvim",
+  priority = 1000, -- Ensure it loads first
+  enabled = true,
+  config = function()
+    vim.cmd([[colorscheme catppuccin-mocha]])
+  end,
+}
