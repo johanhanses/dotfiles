@@ -1,5 +1,5 @@
 [docker_context]
 disabled = true
 
-[lua]
-disabled = true
+# [lua]
+# disabled = true
