@@ -17,6 +17,7 @@ brew "neovim"
 brew "lazygit"
 brew "php"
 brew "composer"
+brew "mysql"
 
 cask "spotify"
 cask "font-ubuntu-mono-nerd-font"
@@ -33,6 +34,9 @@ cask "firefox"
 cask "google-chrome"
 cask "obsidian"
 cask "bartender"
+cask "tableplus"
+cask "phpstorm"
+cask "iterm2"
 
 mas "Tailscale", id: 1475387142
 mas "RunCat", id: 1429033973
