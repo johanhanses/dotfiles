@@ -15,3 +15,7 @@ vendor-tags
 .ssh
 .lvimrc
 .rgignore
+
+# editor crap
+.vscode/
+.idea/
