@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "buo/cask-upgrade"
+tap "jandedobbeleer/oh-my-posh"
 
 brew "mas"
 brew "git"
@@ -18,6 +19,8 @@ brew "lazygit"
 brew "php"
 brew "composer"
 brew "mysql"
+brew "oh-my-posh"
+brew "lynx"
 
 cask "spotify"
 cask "font-ubuntu-mono-nerd-font"
@@ -36,6 +39,8 @@ cask "obsidian"
 cask "bartender"
 cask "tableplus"
 cask "phpstorm"
+cask "webstorm"
+cask "fleet"
 cask "iterm2"
 
 mas "Tailscale", id: 1475387142

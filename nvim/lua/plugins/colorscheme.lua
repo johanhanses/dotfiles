@@ -1,3 +1,9 @@
+return {
+  "folke/tokyonight.nvim",
+  lazy = true,
+  opts = { style = "storm" },
+}
+
 -- return {
 --   "luisiacc/gruvbox-baby",
 --   priority = 1000,
@@ -217,11 +223,11 @@
 --   },
 -- }
 
-return {
-  "catppuccin/nvim",
-  priority = 1000, -- Ensure it loads first
-  enabled = true,
-  config = function()
-    vim.cmd([[colorscheme catppuccin-mocha]])
-  end,
-}
+-- return {
+--   "catppuccin/nvim",
+--   priority = 1000, -- Ensure it loads first
+--   enabled = true,
+--   config = function()
+--     vim.cmd([[colorscheme catppuccin-mocha]])
+--   end,
+-- }

@@ -1,5 +1,3 @@
-CASE_SENSITIVE="false"
-
 # ~~~~~~~~~~~~~~~ History ~~~~~~~~~~~~~~~~~~~~~~~~
 export HISTFILE=~/.histfile
 export HISTSIZE=25000
@@ -110,6 +108,12 @@ alias ta='tmux a'
 alias d="docker"
 alias dc="docker compose"
 
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
+
+if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
+#   eval "$(oh-my-posh init zsh)"
+#   eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/material.omp.json)"
+  eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/robbyrussell.omp.json)"
+fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
