@@ -117,4 +117,3 @@ if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
 fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-

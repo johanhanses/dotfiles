@@ -5,14 +5,21 @@
 DOTFILES="$(pwd)"
 DOTFILES_PRIVATE="$HOME/Repos/github.com/johanhanses/dotfiles-private"
 
+# Brewfile
+ln -sf $DOTFILES/Brewfile $HOME/Brewfile
+cd $HOME && brew bundle
+
 # Zsh
 ln -sf $DOTFILES/.zshrc $HOME/.zshrc
 
-# Brewfile
-ln -sf $DOTFILES/Brewfile $HOME/Brewfile
-
 # Sublime Text
-ln -sf $DOTFILES/Preferences.sublime-settings $HOME/Library/Application\ Support/Sublime\ Text/Packages/User/Preferences.sublime-settings
+# ln -sf $DOTFILES/Preferences.sublime-settings $HOME/Library/Application\ Support/Sublime\ Text/Packages/User/Preferences.sublime-settings
+
+# VS Code
+# cd $DOTFILES/vscode && code --list-extensions > extensions.txt # use this to generate a list of extensions
+ln -sf $DOTFILES/vscode/keybindings.json $HOME/Library/Application\ Support/Code/User/keybindings.json
+ln -sf $DOTFILES/vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
+cd $DOTFILES/vscode && cat extensions.txt | xargs -L 1 code --install-extension
 
 # Neovim
 rm -rf $HOME/.config/nvim
