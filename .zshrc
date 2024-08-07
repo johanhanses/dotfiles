@@ -30,12 +30,13 @@ export LDFLAGS="-L/opt/homebrew/opt/node@18/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/node@18/include"
 
 export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
-# export ZSH="$HOME/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 export PATH="$XDG_CONFIG_HOME/scripts:$PATH"
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
 # ZSH_THEME="dpoggi"
+ZSH_THEME="avit"
 # ZSH_THEME="agnoster"
 # ZSH_THEME="fwalch"
 # ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -45,10 +46,10 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # plugins=(git)
 
-# source $ZSH/oh-my-zsh.sh
+source $ZSH/oh-my-zsh.sh
 
-alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
-alias storm="/Applications/PhpStorm.app/Contents/MacOS/phpstorm"
+# alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
+# alias storm="/Applications/PhpStorm.app/Contents/MacOS/phpstorm"
 alias laravel="cd $GHREPOS/laravel"
 alias repos="cd $REPOS"
 alias ghrepos="cd $GHREPOS"
@@ -110,11 +111,10 @@ alias dc="docker compose"
 
 # eval "$(starship init zsh)"
 
-if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-#   eval "$(oh-my-posh init zsh)"
-#   eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/material.omp.json)"
-  eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/robbyrussell.omp.json)"
-fi
+# if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
+# #   eval "$(oh-my-posh init zsh)"
+# #   eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/material.omp.json)"
+#   eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/robbyrussell.omp.json)"
+# fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
