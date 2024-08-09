@@ -38,3 +38,5 @@ cask "tableplus"
 
 mas "Tailscale", id: 1475387142
 mas "RunCat", id: 1429033973
+mas "1Blocker - Ad Blocker", id: 1365531024
+mas "TabBack för Safari", id: 1660506599

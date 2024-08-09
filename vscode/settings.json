@@ -26,7 +26,7 @@
   "workbench.list.smoothScrolling": true,
   // "workbench.fontAliasing": "antialiased",
 
-  "workbench.preferredDarkColorTheme": "One Dark Pro Flat",
+  "workbench.preferredDarkColorTheme": "GitHub Dark Colorblind (Beta)",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "editor.copyWithSyntaxHighlighting": false,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -114,6 +114,8 @@
    **/
   // Include "-" in word selection.
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
+  "blade.format.enable": true, // if you would like to enable blade format
   "emmet.includeLanguages": {
     "vue-html": "html",
     "vue": "html",
@@ -127,6 +129,9 @@
     "*.mdx": "mdx",
     "*.css": "css",
     "*.view.php": "php"
+  },
+  "[blade]": {
+    "editor.autoClosingBrackets": "always"
   },
 
   /**

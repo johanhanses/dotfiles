@@ -68,11 +68,48 @@ set-option -g status-right-length 100
 # set-option -g status-left " #{session_name}  "
 set-option -g status-left " " # Screencast mode
 set-option -g status-right "#{pane_title} "
-set-option -g status-style "fg=#7C7D83 bg=#0d1117"
+set-option -g status-style "fg=#7C7D83 bg=#24283b"
 # set-option -g window-status-format "#{window_index}:#{pane_current_command}#{window_flags} "
 # set-option -g window-status-current-format "#{window_index}:#{pane_current_command}#{window_flags} "
 set-option -g window-status-current-style "fg=#E9E9EA"
 set-option -g window-status-activity-style none
+
+
+# Status line customisation
+# set-option -g status-left-length 100
+# set-option -g status-right-length 100
+
+# set-option -g status-left " #{session_name}  "
+
+# set-option -g status-right "#{pane_title} "
+# set-option -g status-right "#[fg=#1D9BF0]#[fg=#c0caf5] @jessarchercodes   #[fg=#ffffff] #[fg=#c0caf5]jessarcher   #[fg=#06B6D4]爵#[fg=#94A3B8]jessarcher.com "
+# set-option -g status-right "#[fg=#1D9BF0]#[fg=#c0caf5] jessarchercodes   #[fg=#ffffff] #[fg=#c0caf5]jessarcher "
+
+# set-option -g status-style "fg=#aaaaaa bg=#1f2335"
+# set-option -g status-style "fg=#aaaaaa"
+# set-option -g status-style "fg=#545c7e bg=default" # Screencast mode
+
+# set-option -g window-status-format "#[fg=#545c7e]#{window_index}/#{pane_current_command} "
+# set-option -g window-status-current-format "#[fg=#545c7e]#{window_index}/#[fg=#E9E9EA]#{pane_current_command} "
+
+# set-option -g window-status-format "#{window_index}󰿟#{pane_current_command} "
+# set-option -g window-status-current-format "#[fg=#545c7e]#{window_index}󰿟#[fg=#E9E9EA]#{pane_current_command} "
+
+# set-option -g window-status-format "· " # Screencast mode
+# set-option -g window-status-current-format "· " # Screencast mode
+
+# set-option -g window-status-current-style "fg=#666666"
+# set-option -g window-status-activity-style none
+#
+# set-option -g pane-active-border-style "fg=#232136"
+# set-option -g pane-border-style "fg=#232136"
+
+#--------------------------------------------------------------------------
+# Key Bindings
+#--------------------------------------------------------------------------
+
+# -r means that the bind can repeat without entering prefix again
+# -n means that the bind doesn't use the prefix
 
 # Set the prefix to Ctrl+a
 set -g prefix C-a
@@ -134,3 +171,71 @@ if-shell -b '[ "$(echo "$TMUX_VERSION >= 2.4" | bc)" = 1 ]' \
     'bind-key -T copy-mode-vi v send-keys -X begin-selection;'
 
 bind y run -b "tmux show-buffer | xclip -selection clipboard"\; display-message "Copied tmux buffer to system clipboard"
+
+# bind-key -r F new-window t
+# bind-key -r D run-shell "t ~/Code/jessarcher/dotfiles"
+
+# ------------------------  OLD  --------------------------------------------
+
+# # change default meta key to same as screen
+# unbind C-b
+# unbind C-a
+# set -g prefix C-a
+#
+# # reload configuration
+# bind -r r source-file ~/.config/tmux/tmux.conf\; display-message '~/.tmux.conf reloaded'
+#
+# # create more intuitive split key combos (same as modern screen)
+# unbind |
+# bind | split-window -h
+# bind '\' split-window -h
+# bind 'C-\' split-window -h
+# unbind -
+# bind - split-window -v
+# unbind _
+# bind _ split-window -v
+#
+# # vi keys to navigate panes
+# bind -r k select-pane -U
+# bind -r j select-pane -D
+# bind -r h select-pane -L
+# bind -r l select-pane -R
+#
+# # very unique Mac bug
+# if-shell "type 'reattach-to-user-namespace' >/dev/null" "set -g default-command 'reattach-to-user-namespace -l $SHELL'"
+#
+# set-option -g history-limit 25000
+# set -g mouse on
+#
+# # for neovim
+# set -sg escape-time 10
+# set-option -g focus-events on
+#
+# # vi for copy mode
+# setw -g mode-keys vi
+#
+# # status bar
+# set -g status-right "#(pomo)"
+# set -g status-style "fg=#d8d8d8"
+# set -g status-left-style "fg=#928374"
+#
+# set -g status-bg default
+# set -g status-position top
+# set -g status-interval 1
+# set -g status-left ""
+#
+# # rename panes to current working directory
+# set-option -g automatic-rename on
+# set-option -g automatic-rename-format '#{b:pane_current_path}'
+#
+# # disable status
+# # set -g status off
+# # set -g status on
+#
+# # count the panes from 1
+# set -g base-index 1
+# setw -g pane-base-index 1
+#
+# # term colors, these are the correct ones according to neovim checkhealth
+# set-option -g default-terminal "screen-256color"
+# # set-option -a terminal-features 'xterm-256color:RGB'

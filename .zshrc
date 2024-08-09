@@ -1,4 +1,5 @@
 # ~~~~~~~~~~~~~~~ History ~~~~~~~~~~~~~~~~~~~~~~~~
+
 export HISTFILE=~/.histfile
 export HISTSIZE=25000
 export SAVEHIST=25000
@@ -32,11 +33,12 @@ export CPPFLAGS="-I/opt/homebrew/opt/node@18/include"
 export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="$XDG_CONFIG_HOME/scripts:$PATH"
+export PATH="$XDG_CONFIG_HOME/composer/vendor/bin:$PATH"
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# ZSH_THEME="robbyrussell"
+ZSH_THEME="robbyrussell"
 # ZSH_THEME="dpoggi"
-ZSH_THEME="avit"
+# ZSH_THEME="avit"
 # ZSH_THEME="agnoster"
 # ZSH_THEME="fwalch"
 # ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -50,7 +52,8 @@ source $ZSH/oh-my-zsh.sh
 
 # alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 # alias storm="/Applications/PhpStorm.app/Contents/MacOS/phpstorm"
-alias laravel="cd $GHREPOS/laravel"
+alias lara="cd $GHREPOS/laravel"
+alias a="php artisan"
 alias repos="cd $REPOS"
 alias ghrepos="cd $GHREPOS"
 alias dot="cd $GHREPOS/dotfiles"

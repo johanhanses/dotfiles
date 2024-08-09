@@ -22,8 +22,8 @@ ln -sf $DOTFILES/vscode/settings.json $HOME/Library/Application\ Support/Code/Us
 cd $DOTFILES/vscode && cat extensions.txt | xargs -L 1 code --install-extension
 
 # Neovim
-rm -rf $HOME/.config/nvim
-ln -s $DOTFILES/nvim/ $HOME/.config/nvim
+# rm -rf $HOME/.config/nvim
+# ln -s $DOTFILES/nvim/ $HOME/.config/nvim
 
 # Kitty
 rm -rf $HOME/.config/kitty
@@ -46,4 +46,4 @@ rm -rf $HOME/.kube
 ln -sf $DOTFILES_PRIVATE/.kube/ $HOME/.kube
 
 # promt managed by starship
-ln -sf $DOTFILES/starship.toml $HOME/.config/starship.toml
+# ln -sf $DOTFILES/starship.toml $HOME/.config/starship.toml
