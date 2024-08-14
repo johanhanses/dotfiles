@@ -26,17 +26,16 @@ cask "visual-studio-code"
 cask "mattermost"
 cask "microsoft-teams"
 cask "kitty"
-cask "iterm2"
 cask "docker"
 cask "1password"
 cask "firefox"
 cask "google-chrome"
-cask "qutebrowser"
 cask "obsidian"
 cask "bartender"
 cask "tableplus"
+cask "arc"
 
 mas "Tailscale", id: 1475387142
 mas "RunCat", id: 1429033973
-mas "1Blocker - Ad Blocker", id: 1365531024
-mas "TabBack för Safari", id: 1660506599
+# mas "1Blocker - Ad Blocker", id: 1365531024
+# mas "TabBack för Safari", id: 1660506599

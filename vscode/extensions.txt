@@ -26,10 +26,13 @@ mrmlnc.vscode-duplicate
 mvllow.rose-pine
 naumovs.color-highlight
 neotan.vscode-auto-restart-typescript-eslint-servers
+onecentlin.laravel-blade
+open-southeners.laravel-pint
 oscarnewman.carbon-theme-dark
 prisma.prisma
 rebornix.toggle
 rodrigovallades.es7-react-js-snippets
+shufo.vscode-blade-formatter
 simonsiefke.svg-preview
 tamasfe.even-better-toml
 tobermory.es6-string-html

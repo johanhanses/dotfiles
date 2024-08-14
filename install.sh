@@ -22,8 +22,8 @@ ln -sf $DOTFILES/vscode/settings.json $HOME/Library/Application\ Support/Code/Us
 cd $DOTFILES/vscode && cat extensions.txt | xargs -L 1 code --install-extension
 
 # Neovim
-# rm -rf $HOME/.config/nvim
-# ln -s $DOTFILES/nvim/ $HOME/.config/nvim
+rm -rf $HOME/.config/nvim
+ln -s $DOTFILES/nvim/ $HOME/.config/nvim
 
 # Kitty
 rm -rf $HOME/.config/kitty
@@ -34,8 +34,8 @@ rm -rf $HOME/.config/tmux
 ln -sf $DOTFILES/tmux/ $HOME/.config/tmux
 
 # Git
-ln -sf $DOTFILES/.gitconfig $HOME/.gitconfig
-ln -sf $DOTFILES/.gitignore_global $HOME/.gitignore_global
+# ln -sf $DOTFILES/.gitconfig $HOME/.gitconfig
+# ln -sf $DOTFILES/.gitignore_global $HOME/.gitignore_global
 
 # Scripts
 rm -rf $HOME/.config/scripts
