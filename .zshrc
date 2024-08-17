@@ -27,10 +27,10 @@ export LKAB_DIR=${WORK_DIR}/.lkab
 export ONPREM_CONFIG_DIR=${LKAB_DIR:?}/on-prem/config
 export ONPREM_CERT_DIR=${LKAB_DIR:?}/on-prem/cert
 
-export LDFLAGS="-L/opt/homebrew/opt/node@18/lib"
-export CPPFLAGS="-I/opt/homebrew/opt/node@18/include"
+# export LDFLAGS="-L/opt/homebrew/opt/node@18/lib"
+# export CPPFLAGS="-I/opt/homebrew/opt/node@18/include"
 
-export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
+# export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="$XDG_CONFIG_HOME/scripts:$PATH"
 export PATH="$XDG_CONFIG_HOME/composer/vendor/bin:$PATH"
@@ -43,10 +43,10 @@ ZSH_THEME="robbyrussell"
 # ZSH_THEME="fwalch"
 # ZSH_THEME="powerlevel10k/powerlevel10k"
 
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# plugins=(git)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -61,6 +61,7 @@ alias scripts="cd $DOTFILES/scripts"
 alias rwdot="cd $REPOS/github.com/rwxrob/dot"
 alias rob="cd $REPOS/github.com/rwxrob"
 alias dt="cd $REPOS/github.com/Digital-Tvilling"
+alias plan="cd $REPOS/github.com/Digital-Tvilling/DT-Frontend-planning"
 alias rtm="cd $REPOS/github.com/Digital-Tvilling/dt-frontend-vite"
 alias deploy="cd $REPOS/github.com/Digital-Tvilling/deployment-configuration"
 alias backend="cd $REPOS/github.com/Digital-Tvilling/deployment-configuration/external/localhost"
@@ -121,3 +122,6 @@ alias dc="docker compose"
 # fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
