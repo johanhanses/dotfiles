@@ -66,3 +66,7 @@ vim.opt.foldmethod = "expr" -- fold based on indent level
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()" -- use treesitter for folding
 vim.opt.foldlevel = 99 -- open all folds by default
 vim.opt.foldtext = ""
+
+-- LSP Server to use for PHP.
+-- Set to "intelephense" to use intelephense instead of phpactor.
+vim.g.lazyvim_php_lsp = "intelephense"

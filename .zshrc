@@ -115,6 +115,9 @@ alias dc="docker compose"
 
 # eval "$(starship init zsh)"
 
+alias dark="kitten themes --reload-in=all Tokyo Night Storm && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'"
+alias light="kitten themes --reload-in=all Tokyo Night Day && gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'"
+
 # if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
 # #   eval "$(oh-my-posh init zsh)"
 # #   eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/material.omp.json)"
