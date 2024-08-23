@@ -1,347 +1,351 @@
 {
-  /**
-   * Typography
-   **/
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.7,
-  "editor.fontLigatures": true,
-  "editor.suggestFontSize": 12,
-  // "editor.fontFamily": "SFMono Nerd Font",
-  // "editor.fontFamily": "Fantasque Sans Mono",
-  // "editor.fontFamily": "Geist Mono",
-  // "editor.fontFamily": "Jetbrains Mono",
-  "editor.fontFamily": "JetBrainsMono Nerd Font",
-  // "editor.fontFamily": "FantasqueSansM Nerd Font Mono",
-  // "editor.fontFamily": "M+1Code Nerd Font",
-  // "editor.fontFamily": "Source Code Pro",
-  // "editor.fontFamily": "Monaco",
-  // "editor.fontFamily": "MesloLGS NF",
-  // "editor.fontWeight": "400",
-  // "editor.letterSpacing": 0.4,
-  "editor.suggestLineHeight": 20,
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.lineHeight": 1.7,
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-  "workbench.iconTheme": "file-icons-colourless",
-  "workbench.list.smoothScrolling": true,
-  // "workbench.fontAliasing": "antialiased",
+	/**
+	 * Typography
+	 **/
+	"editor.fontSize": 14,
+	"editor.lineHeight": 1.7,
+	"editor.fontLigatures": true,
+	"editor.suggestFontSize": 12,
+	// "editor.fontFamily": "SFMono Nerd Font",
+	// "editor.fontFamily": "Fantasque Sans Mono",
+	// "editor.fontFamily": "Geist Mono",
+	// "editor.fontFamily": "Jetbrains Mono",
+	"editor.fontFamily": "JetBrainsMono Nerd Font",
+	// "editor.fontFamily": "FantasqueSansM Nerd Font Mono",
+	// "editor.fontFamily": "M+1Code Nerd Font",
+	// "editor.fontFamily": "Source Code Pro",
+	// "editor.fontFamily": "Monaco",
+	// "editor.fontFamily": "MesloLGS NF",
+	// "editor.fontWeight": "400",
+	// "editor.letterSpacing": 0.4,
+	"editor.suggestLineHeight": 20,
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.lineHeight": 1.7,
+	"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+	"workbench.iconTheme": "file-icons-colourless",
+	"workbench.list.smoothScrolling": true,
+	// "workbench.fontAliasing": "antialiased",
 
-  "workbench.preferredDarkColorTheme": "GitHub Dark Colorblind (Beta)",
-  "workbench.preferredLightColorTheme": "Default Light Modern",
-  "editor.copyWithSyntaxHighlighting": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.emptySelectionClipboard": true,
-  "workbench.editor.enablePreview": false,
-  "window.newWindowDimensions": "inherit",
-  "editor.multiCursorModifier": "ctrlCmd",
-  "diffEditor.renderSideBySide": false,
-  "files.trimTrailingWhitespace": true,
-  "editor.accessibilitySupport": "off",
-  "editor.snippetSuggestions": "top",
-  "workbench.startupEditor": "none",
-  "editor.detectIndentation": false,
-  // "window.nativeFullScreen": true,
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
-  "editor.minimap.enabled": false,
-  "editor.lineNumbers": "on",
-  "files.exclude": {
-    "vendor/": true,
-    ".git/": true,
-    ".vscode/": true,
-    ".idea/": true,
-    ".fleet/": true,
-    "**/.git": true,
-    "**/node_modules/": true,
-    "node_modules/": true,
-    "**/.next/": false,
-    ".next/": false,
-    "**/.nuxt/": false,
-    ".nuxt/": false,
-    "build/": true
-  },
+	"workbench.preferredDarkColorTheme": "GitHub Dark Colorblind (Beta)",
+	"workbench.preferredLightColorTheme": "GitHub Light Colorblind (Beta)",
+	"editor.copyWithSyntaxHighlighting": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.emptySelectionClipboard": true,
+	"workbench.editor.enablePreview": false,
+	"window.newWindowDimensions": "inherit",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"diffEditor.renderSideBySide": false,
+	"files.trimTrailingWhitespace": true,
+	"editor.accessibilitySupport": "off",
+	"editor.snippetSuggestions": "top",
+	"workbench.startupEditor": "none",
+	"editor.detectIndentation": false,
+	// "window.nativeFullScreen": true,
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"editor.minimap.enabled": false,
+	"editor.lineNumbers": "on",
+	"files.exclude": {
+		"vendor/": true,
+		".git/": true,
+		".vscode/": true,
+		".idea/": true,
+		".fleet/": true,
+		"**/.git": true,
+		"**/node_modules/": true,
+		"node_modules/": true,
+		"**/.next/": false,
+		".next/": false,
+		"**/.nuxt/": false,
+		".nuxt/": false,
+		"build/": true
+	},
 
-  /*
-   * Misc
-   */
-  "editor.tabSize": 4,
-  "editor.wordWrap": "on",
-  "workbench.tree.indent": 22,
-  "editor.cursorStyle": "block",
-  "editor.cursorWidth": 3,
-  "explorer.compactFolders": true,
-  "workbench.settings.editor": "json",
-  "workbench.sideBar.location": "left",
-  "workbench.activityBar.location": "hidden",
-  "editor.inlineSuggest.enabled": true,
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit"
-  },
-  "git.confirmSync": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
+	/*
+	 * Misc
+	 */
+	"editor.wordWrap": "on",
+	"workbench.tree.indent": 22,
+	"editor.cursorStyle": "block",
+	"editor.cursorWidth": 3,
+	"explorer.compactFolders": true,
+	"workbench.settings.editor": "json",
+	"workbench.sideBar.location": "left",
+	"workbench.activityBar.location": "hidden",
+	"editor.inlineSuggest.enabled": true,
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
+	"git.confirmSync": false,
+	"typescript.updateImportsOnFileMove.enabled": "always",
 
-  /**
-   * Silence The Noise
-   */
-  "breadcrumbs.enabled": true,
-  "editor.hover.enabled": true,
-  "editor.hover.sticky": true,
-  "scm.diffDecorations": "none",
-  "editor.colorDecorators": true,
-  "workbench.tips.enabled": false,
-  // "editor.matchBrackets": "always",
-  "git.decorations.enabled": false,
-  // "editor.lightbulb.enabled": false,
-  "editor.selectionHighlight": false,
-  "editor.overviewRulerBorder": false,
-  "editor.renderLineHighlight": "all",
-  "editor.occurrencesHighlight": "off",
-  // "problems.decorations.enabled": false,
-  // "editor.renderControlCharacters": false,
-  "editor.hideCursorInOverviewRuler": true,
-  "workbench.editor.showTabs": "none",
-  "editor.gotoLocation.multipleReferences": "goto",
-  "editor.gotoLocation.multipleDefinitions": "goto",
-  "editor.gotoLocation.multipleDeclarations": "goto",
-  // "workbench.statusBar.visible": false,
-  // "workbench.editor.enablePreviewFromQuickOpen": false,
-  "editor.gotoLocation.multipleImplementations": "goto",
-  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+	/**
+	 * Silence The Noise
+	 */
+	"breadcrumbs.enabled": true,
+	"editor.hover.enabled": true,
+	"editor.hover.sticky": true,
+	"scm.diffDecorations": "none",
+	"editor.colorDecorators": true,
+	"workbench.tips.enabled": false,
+	// "editor.matchBrackets": "always",
+	"git.decorations.enabled": false,
+	// "editor.lightbulb.enabled": false,
+	"editor.selectionHighlight": false,
+	"editor.overviewRulerBorder": false,
+	"editor.renderLineHighlight": "all",
+	"editor.occurrencesHighlight": "off",
+	// "problems.decorations.enabled": false,
+	// "editor.renderControlCharacters": false,
+	"editor.hideCursorInOverviewRuler": true,
+	"workbench.editor.showTabs": "multiple",
+	"editor.gotoLocation.multipleReferences": "goto",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"editor.gotoLocation.multipleDeclarations": "goto",
+	// "workbench.statusBar.visible": false,
+	// "workbench.editor.enablePreviewFromQuickOpen": false,
+	"editor.gotoLocation.multipleImplementations": "goto",
+	"editor.gotoLocation.multipleTypeDefinitions": "goto",
 
-  /**
-   * Code
-   **/
-  // Include "-" in word selection.
-  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
-  "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
-  "blade.format.enable": true, // if you would like to enable blade format
-  "laravel-pint.enable": true,
-  "emmet.includeLanguages": {
-    "vue-html": "html",
-    "vue": "html",
-    "javascript": "javascriptreact",
-    "typescript": "typescriptreact",
-    // "javascriptreact": "html",
-    // "typescriptreact": "html",
-    "react-native": "html"
-  },
-  "files.associations": {
-    "*.mdx": "mdx",
-    "*.css": "css",
-    "*.view.php": "php",
-    "*.blade.php": "blade"
-  },
-  "[blade]": {
-    "editor.autoClosingBrackets": "always",
-    "editor.defaultFormatter": "shufo.vscode-blade-formatter",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 4
-  },
+	/**
+	 * Code
+	 **/
+	// Include "-" in word selection.
+	"editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+	"emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
+	"laravel-pint.enable": true,
+	"emmet.includeLanguages": {
+		"vue-html": "html",
+		"vue": "html",
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact",
+		// "javascriptreact": "html",
+		// "typescriptreact": "html",
+		"react-native": "html"
+	},
+	"files.associations": {
+		"*.mdx": "mdx",
+		"*.css": "css",
+		"*.view.php": "php",
+		"*.blade.php": "blade"
+	},
+	"blade.format.enable": true, // if you would like to enable blade format
+	"[blade]": {
+		"editor.autoClosingBrackets": "always",
+		"editor.defaultFormatter": "shufo.vscode-blade-formatter",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 4
+	},
 
-  /**
-   * Find
-   **/
-  "search.useIgnoreFiles": false,
-  "search.exclude": {
-    "**/node_modules": true,
-    "**/_ide_helper.php": true,
-    "**/composer.lock": true,
-    "**/package-lock.json": true,
-    "**/yarn.json": true,
-    "**/.next": true,
-    "**/.nuxt": true,
-    "**/dist": true
-  },
+	/**
+	 * Find
+	 **/
+	"search.useIgnoreFiles": false,
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/_ide_helper.php": true,
+		"**/composer.lock": true,
+		"**/package-lock.json": true,
+		"**/yarn.json": true,
+		"**/.next": true,
+		"**/.nuxt": true,
+		"**/dist": true
+	},
 
-  /**
-   * PHP Intelephense
-   **/
-  "php.suggest.basic": true,
+	/**
+	 * PHP Intelephense
+	 **/
+	"php.suggest.basic": true,
 
-  // /**
-  //  * PHP CS Fixer
-  //  **/
-  // "[php]": {
-  //   "editor.defaultFormatter": "junstyle.php-cs-fixer",
-  //   "editor.tabSize": 4
-  // },
-  // "php-cs-fixer.onsave": true,
-  // "php-cs-fixer.executablePath": "php-cs-fixer",
-  // "php-cs-fixer.showOutput": false,
-  // "php-cs-fixer.autoFixByBracket": false,
-  // "php-cs-fixer.rules": "@PSR12",
+	// /**
+	//  * PHP CS Fixer
+	//  **/
+	// "[php]": {
+	//   "editor.defaultFormatter": "junstyle.php-cs-fixer",
+	//   "editor.tabSize": 4
+	// },
+	// "php-cs-fixer.onsave": true,
+	// "php-cs-fixer.executablePath": "php-cs-fixer",
+	// "php-cs-fixer.showOutput": false,
+	// "php-cs-fixer.autoFixByBracket": false,
+	// "php-cs-fixer.rules": "@PSR12",
 
-  /**
-   * Prettier
-   **/
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 4,
-    "editor.formatOnSave": true
-  },
-  // "[vue]": {
-  //   "editor.defaultFormatter": "Vue.volar",
-  //   // "editor.defaultFormatter": "esbenp.prettier-vscode",
-  //   "editor.formatOnSave": true,
-  //   "editor.tabSize": 2
-  // },
-  "[graphql]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 4
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 4
-  },
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2
-  },
-  "[postcss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2
-  },
-  "[tailwindcss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2
-  },
-  "[svelte]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2
-  },
+	/**
+	 * Prettier
+	 **/
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 4,
+		"editor.formatOnSave": true
+	},
+	// "[vue]": {
+	//   "editor.defaultFormatter": "Vue.volar",
+	//   // "editor.defaultFormatter": "esbenp.prettier-vscode",
+	//   "editor.formatOnSave": true,
+	//   "editor.tabSize": 2
+	// },
+	"[graphql]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 4
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 4
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
+	},
+	"[postcss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
+	},
+	"[tailwindcss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
+	},
+	"[php]": {
+		"editor.defaultFormatter": "open-southeners.laravel-pint",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 4
+	},
+	"[angular]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 4
+	},
+	"prettier.printWidth": 120,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"prettier.bracketSpacing": true,
+	"prettier.trailingComma": "all",
+	"prettier.arrowParens": "always",
+	"prettier.bracketSameLine": false,
+	"prettier.useEditorConfig": false,
+	"prettier.useTabs": true,
+	"prettier.singleAttributePerLine": false,
+	"editor.linkedEditing": true,
+	"editor.autoClosingBrackets": "always",
 
-  "[php]": {
-    "editor.defaultFormatter": "open-southeners.laravel-pint",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 4
-  },
-  "prettier.printWidth": 120,
-  "prettier.tabWidth": 2,
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
-  "prettier.bracketSpacing": true,
-  "prettier.trailingComma": "all",
-  "prettier.arrowParens": "always",
-  "prettier.bracketSameLine": false,
-  "prettier.useEditorConfig": false,
-  "prettier.singleAttributePerLine": false,
-  "editor.linkedEditing": true,
-  "editor.autoClosingBrackets": "always",
+	"workbench.tree.renderIndentGuides": "always",
+	"security.workspace.trust.untrustedFiles": "open",
+	"workbench.colorCustomizations": {
+		// "sideBar.foreground": "#bbb",
+		// "list.activeSelectionForeground": "#eee",
+		// "editorCursor.foreground": "#f20515"
+		// "editorCursor.foreground": "#FFCC00"
+		// "statusBar.background": "#2A2A2A",
+		// "editor.background": "#2A2A2A",
+		// "editorGutter.background": "#2A2A2A",
+		// "editorGutter.background": "#fdf5e0"
+		// "titleBar.activeBackground": "#2A2A2A",
+		// "terminal.background": "#2A2A2A"
+		// "activityBar.background": "#2A2A2A"
+		// "editorGroupHeader.tabsBackground": "#2A2A2A"
+		// "statusBar.noFolderBackground": "#212121",
+		// "statusBar.debuggingBackground": "#263238"
+	},
+	// "workbench.colorCustomizations": {
+	//   "editor.background": "#0e172a",
+	//   "editorWidget.background": "#1f2738bb",
+	//   "editorHoverWidget.background": "#2d3750",
+	//   "sideBar.background": "#0e172a",
+	//   "statusBar.background": "#0e172a",
+	//   "sideBarSectionHeader.background": "#2a354b55",
+	//   "terminal.background": "#0e172a",
+	//   "editorLineNumber.activeForeground": "#586374",
+	//   "editorLineNumber.dimmedForeground": "#586374",
+	//   "editorLineNumber.foreground": "#58637466",
+	//   "scrollbarSlider.activeBackground": "#000c20",
+	//   "scrollbarSlider.background": "#000c20",
+	//   "scrollbarSlider.hoverBackground": "#000c20",
+	//   "sideBar.border": "#63697355"
+	// },
+	// "window.titleBarStyle": "native",
+	// "apc.electron": {
+	//   "titleBarStyle": "hiddenInset",
+	//   "trafficLightPosition": {
+	//     "x": 17,
+	//     "y": 12
+	//   },
+	//   // This gets rid of that horid white frame around the electron window...
+	//   "transparent": false,
+	//   // This removes the less-horid, but still yucky stacking window shadow...
+	//   "hasShadow": false
+	// },
+	"apc.stylesheet": {
+		// This overrides the VS Code logo with your own SVG...
+		".monaco-workbench.vs-dark .part.editor>.content .editor-group-container .editor-group-watermark>.letterpress": {
+			"background-image": "url(/Users/johan/Documents/js.svg)",
+			"opacity": "0.45"
+		},
+		".monaco-workbench .part.editor>.content .editor-group-container .editor-group-watermark>.letterpress": {
+			"background-image": "url(/Users/johan/Documents/js.svg)",
+			"opacity": "0.04"
+		},
+		".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important;"
+	},
 
-  "workbench.tree.renderIndentGuides": "always",
-  "security.workspace.trust.untrustedFiles": "open",
-  "workbench.colorCustomizations": {
-    // "sideBar.foreground": "#bbb",
-    // "list.activeSelectionForeground": "#eee",
-    // "editorCursor.foreground": "#f20515"
-    // "editorCursor.foreground": "#FFCC00"
-    // "statusBar.background": "#2A2A2A",
-    // "editor.background": "#2A2A2A",
-    // "editorGutter.background": "#2A2A2A",
-    // "editorGutter.background": "#fdf5e0"
-    // "titleBar.activeBackground": "#2A2A2A",
-    // "terminal.background": "#2A2A2A"
-    // "activityBar.background": "#2A2A2A"
-    // "editorGroupHeader.tabsBackground": "#2A2A2A"
-    // "statusBar.noFolderBackground": "#212121",
-    // "statusBar.debuggingBackground": "#263238"
-  },
-  // "workbench.colorCustomizations": {
-  //   "editor.background": "#0e172a",
-  //   "editorWidget.background": "#1f2738bb",
-  //   "editorHoverWidget.background": "#2d3750",
-  //   "sideBar.background": "#0e172a",
-  //   "statusBar.background": "#0e172a",
-  //   "sideBarSectionHeader.background": "#2a354b55",
-  //   "terminal.background": "#0e172a",
-  //   "editorLineNumber.activeForeground": "#586374",
-  //   "editorLineNumber.dimmedForeground": "#586374",
-  //   "editorLineNumber.foreground": "#58637466",
-  //   "scrollbarSlider.activeBackground": "#000c20",
-  //   "scrollbarSlider.background": "#000c20",
-  //   "scrollbarSlider.hoverBackground": "#000c20",
-  //   "sideBar.border": "#63697355"
-  // },
-  // "window.titleBarStyle": "native",
-  // "apc.electron": {
-  //   "titleBarStyle": "hiddenInset",
-  //   "trafficLightPosition": {
-  //     "x": 17,
-  //     "y": 12
-  //   },
-  //   // This gets rid of that horid white frame around the electron window...
-  //   "transparent": false,
-  //   // This removes the less-horid, but still yucky stacking window shadow...
-  //   "hasShadow": false
-  // },
-  "apc.stylesheet": {
-    // This overrides the VS Code logo with your own SVG...
-    ".monaco-workbench.vs-dark .part.editor>.content .editor-group-container .editor-group-watermark>.letterpress": {
-      "background-image": "url(/Users/johan/Documents/js.svg)",
-      "opacity": "0.45"
-    },
-    ".monaco-workbench .part.editor>.content .editor-group-container .editor-group-watermark>.letterpress": {
-      "background-image": "url(/Users/johan/Documents/js.svg)",
-      "opacity": "0.04"
-    },
-    ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important;"
-  },
-
-  "editor.largeFileOptimizations": false,
-  "git.openRepositoryInParentFolders": "never",
-  "window.autoDetectColorScheme": true,
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
-  "workbench.tree.enableStickyScroll": false,
-  "editor.stickyScroll.scrollWithEditor": false,
-  "rainbow_csv.enable_sticky_header": false,
-  "editor.stickyScroll.enabled": false,
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
-  }
+	"editor.largeFileOptimizations": false,
+	"git.openRepositoryInParentFolders": "never",
+	"window.autoDetectColorScheme": true,
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+	"workbench.tree.enableStickyScroll": false,
+	"editor.stickyScroll.scrollWithEditor": false,
+	"rainbow_csv.enable_sticky_header": false,
+	"editor.stickyScroll.enabled": false,
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false
+	},
+	"editor.indentSize": "tabSize"
 }
