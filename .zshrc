@@ -27,10 +27,10 @@ export LKAB_DIR=${WORK_DIR}/.lkab
 export ONPREM_CONFIG_DIR=${LKAB_DIR:?}/on-prem/config
 export ONPREM_CERT_DIR=${LKAB_DIR:?}/on-prem/cert
 
-# export LDFLAGS="-L/opt/homebrew/opt/node@18/lib"
-# export CPPFLAGS="-I/opt/homebrew/opt/node@18/include"
+export LDFLAGS="-L/opt/homebrew/opt/node@18/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/node@18/include"
 
-# export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
+export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="$XDG_CONFIG_HOME/scripts:$PATH"
 export PATH="$XDG_CONFIG_HOME/composer/vendor/bin:$PATH"
@@ -43,10 +43,11 @@ ZSH_THEME="robbyrussell"
 # ZSH_THEME="fwalch"
 # ZSH_THEME="powerlevel10k/powerlevel10k"
 
-# source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-# source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git)
+# plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -115,8 +116,8 @@ alias dc="docker compose"
 
 # eval "$(starship init zsh)"
 
-alias dark="kitten themes --reload-in=all Tokyo Night Storm && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'"
-alias light="kitten themes --reload-in=all Tokyo Night Day && gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'"
+# alias dark="kitten themes --reload-in=all Tokyo Night Storm && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'"
+# alias light="kitten themes --reload-in=all Tokyo Night Day && gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'"
 
 # if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
 # #   eval "$(oh-my-posh init zsh)"
@@ -126,5 +127,5 @@ alias light="kitten themes --reload-in=all Tokyo Night Day && gsettings set org.
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+# export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
