@@ -10,7 +10,8 @@ DOTFILES_PRIVATE="$HOME/Repos/github.com/johanhanses/dotfiles-private"
 # cd $HOME && brew bundle
 
 # Zsh
-ln -sf $DOTFILES/.zshrc $HOME/.zshrc
+# ln -sf $DOTFILES/zshrc/mac/.zshrc $HOME/.zshrc
+ln -sf $DOTFILES/zshrc/linux/.zshrc $HOME/.zshrc
 
 # Sublime Text
 # ln -sf $DOTFILES/Preferences.sublime-settings $HOME/Library/Application\ Support/Sublime\ Text/Packages/User/Preferences.sublime-settings
@@ -26,16 +27,16 @@ rm -rf $HOME/.config/nvim
 ln -s $DOTFILES/nvim/ $HOME/.config/nvim
 
 # Kitty
-rm -rf $HOME/.config/kitty
-ln -sf $DOTFILES/kitty/ $HOME/.config/kitty
+# rm -rf $HOME/.config/kitty
+# ln -sf $DOTFILES/kitty/ $HOME/.config/kitty
 
 # Tmux
-rm -rf $HOME/.config/tmux
-ln -sf $DOTFILES/tmux/ $HOME/.config/tmux
+# rm -rf $HOME/.config/tmux
+# ln -sf $DOTFILES/tmux/ $HOME/.config/tmux
 
 # Git
-ln -sf $DOTFILES/.gitconfig $HOME/.gitconfig
-ln -sf $DOTFILES/.gitignore_global $HOME/.gitignore_global
+# ln -sf $DOTFILES/.gitconfig $HOME/.gitconfig
+# ln -sf $DOTFILES/.gitignore_global $HOME/.gitignore_global
 
 # Scripts
 rm -rf $HOME/.config/scripts

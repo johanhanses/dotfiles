@@ -6,7 +6,7 @@ brew "git"
 brew "fzf"
 brew "ripgrep"
 brew "tree"
-brew "node@18"
+brew "node@22"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "tmux"
@@ -34,8 +34,10 @@ cask "obsidian"
 cask "bartender"
 cask "tableplus"
 cask "arc"
+cask "zed"
 
 mas "Tailscale", id: 1475387142
 mas "RunCat", id: 1429033973
+mas "Microsoft Outlook", id: 985367838
 # mas "1Blocker - Ad Blocker", id: 1365531024
 # mas "TabBack för Safari", id: 1660506599
