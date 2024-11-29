@@ -48,4 +48,4 @@ rm -rf $HOME/.kube
 ln -sf $DOTFILES_PRIVATE/.kube/ $HOME/.kube
 
 # promt managed by starship
-# ln -sf $DOTFILES/starship.toml $HOME/.config/starship.toml
+ln -sf $DOTFILES/starship.toml $HOME/.config/starship.toml

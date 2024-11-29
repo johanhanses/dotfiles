@@ -7,6 +7,7 @@ export HISTCONTROL=ignorespace
 
 # ~~~~~~~~~~~~~~~ Environment Variables ~~~~~~~~~~~~~~~~~~~~~~~~
 
+export PATH=$PATH:/home/johanhanses/.local/bin
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export XDG_CONFIG_HOME="$HOME"/.config
 export REPOS="$HOME/Repos"
@@ -15,6 +16,9 @@ export GHREPOS="$REPOS/github.com/$GITUSER"
 export DOTFILES="$GHREPOS/dotfiles"
 export SCRIPTS="$DOTFILES/scripts"
 export SECOND_BRAIN=$GHREPOS/zettelkasten
+
+export VISUAL=nvim
+export EDITOR="$VISUAL"
 
 export CLICOLOR=1
 # export TERM=xterm-256color
@@ -44,9 +48,10 @@ alias dti="cd $REPOS/github.com/Digital-Tvilling/dti"
 alias sb="cd $SECOND_BRAIN"
 alias in="cd $SECOND_BRAIN/0\ Inbox"
 alias config="cd $XDG_CONFIG_HOME"
+alias windows="cd /mnt/c/Users/johanhanses"
 
 alias szr="source ~/.zshrc"
-alias cat="bat"
+# alias cat="bat"
 alias fast="fast -u --single-line"
 alias nv=nvim
 alias ..="cd .."
@@ -72,6 +77,7 @@ alias gs='git status'
 alias gc="git checkout"
 alias gcb="git checkout -b"
 alias gcm="git commit -m"
+alias wip="git commit -m 'wip' --no-verify"
 
 alias lg='lazygit'
 
@@ -87,22 +93,24 @@ alias d="docker"
 alias dc="docker compose"
 
 # Find and set branch name var if in git repository.
-function git_branch_name()
-{
-  branch=$(git symbolic-ref HEAD 2> /dev/null | awk 'BEGIN{FS="/"} {print $NF}')
-  if [[ $branch == "" ]];
-  then
-    :
-  else
-    echo ''%F{yellow}$branch%f''
-  fi
-}
+# function git_branch_name()
+# {
+#   branch=$(git symbolic-ref HEAD 2> /dev/null | awk 'BEGIN{FS="/"} {print $NF}')
+#   if [[ $branch == "" ]];
+#   then
+#     :
+#   else
+#     echo ''%F{yellow}$branch%f''
+#   fi
+# }
 
 # Enable substitution in the prompt.
-setopt prompt_subst
+# setopt prompt_subst
 
 # Set the prompt
-export PROMPT='%B%F{cyan}%0~%f $(git_branch_name)$ '
+# export PROMPT='%B%F{cyan}%0~%f $(git_branch_name)$ '
+
+eval "$(starship init zsh)"
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /home/johanhanses/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
