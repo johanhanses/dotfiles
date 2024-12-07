@@ -76,7 +76,7 @@ alias ga="git add ."
 alias gs='git status'
 alias gc="git checkout"
 alias gcb="git checkout -b"
-alias gcm="git commit -m"
+alias gcm="git cz"
 alias wip="git commit -m 'wip' --no-verify"
 
 alias lg='lazygit'
